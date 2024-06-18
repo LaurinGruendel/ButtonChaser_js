@@ -1,0 +1,33 @@
+.block {
+  width: 100px;
+  height: 100px;
+  background: darkorange;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  background-origin: padding-box;
+  border-radius: 20px;
+  padding: 15px 25px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+}
+.text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(223, 219, 219);
+  text-align: center;
+  font-size: 600%;
+}
+.textcop {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(223, 219, 219);
+  text-align: center;
+  font-size: 100%;
+}
+.fixed-text {
+  position: fixed;
+  left: 30%;
+  top: 30%;
+}
